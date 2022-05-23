@@ -1,5 +1,6 @@
-@use '../utils/variables' as v;
+@use "../utils/variables" as v;
 nav {
+  margin-bottom: 0;
   #nav-logo {
     a {
       font-family: v.$font-secondary;

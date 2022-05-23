@@ -1,0 +1,17 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+h2 {
+  @include m.header-align;
+}
+
+.card {
+  h5 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  a {
+    font-family: v.$font-secondary;
+    font-size: 2rem;
+  }
+}

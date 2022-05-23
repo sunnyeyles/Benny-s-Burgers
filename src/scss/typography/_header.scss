@@ -1,4 +1,4 @@
-@use '../utils/variables' as v;
+@use "../utils/variables" as v;
 header {
   h1 {
     font-weight: 900;
@@ -7,5 +7,9 @@ header {
     font-size: 2.75rem;
     font-family: v.$font-secondary;
     font-weight: 600;
+  }
+  #header-btn {
+    font-size: 2rem;
+    font-family: v.$font-secondary;
   }
 }

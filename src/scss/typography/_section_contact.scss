@@ -1,0 +1,11 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+h2 {
+  @include m.header-align;
+}
+#table {
+  .form-group {
+    font-family: v.$font-secondary;
+  }
+}

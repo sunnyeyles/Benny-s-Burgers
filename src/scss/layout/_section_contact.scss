@@ -1,0 +1,14 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+#table {
+  h2 {
+    padding: 2rem;
+    text-align: center;
+  }
+  .form-group {
+    width: 50%;
+    padding: 2rem;
+    margin: auto;
+  }
+}

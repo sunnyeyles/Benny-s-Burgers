@@ -1,11 +1,6 @@
 @use "../utils/variables" as v;
 @use "../utils/mixins" as m;
-#idea {
-  h2 {
-    @include m.header-align;
-    font-size: 4rem;
-  }
-}
+
 .idea-card {
   padding: 5rem;
 
@@ -15,10 +10,9 @@
     margin: 3rem auto;
     border: solid black;
     border-radius: 50%;
+    padding: 1.5rem;
   }
-  h3 {
-    font-size: 3rem;
-  }
+
   p {
     text-align: left;
     font-size: 1.5rem;

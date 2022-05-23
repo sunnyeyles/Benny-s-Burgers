@@ -10,10 +10,13 @@
   .card {
     margin: 2rem;
     font-size: 1.5rem;
-    margin: 20rem auto;
-    img {
-      aspect-ratio: 1/1;
+    margin: 10rem auto;
+    gap: 10rem;
+    .card-img-top {
+      width: 100%;
+      height: 15rem;
     }
+
     button {
       width: 10rem;
       height: 10rem;
