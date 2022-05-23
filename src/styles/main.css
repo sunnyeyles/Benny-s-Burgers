@@ -10,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /*!
@@ -11152,7 +11153,6 @@ nav {
   position: sticky !important;
   top: 0;
   left: 0;
-  width: 100%;
   padding: 3rem;
 }
 nav #nav-logo img {
@@ -11187,12 +11187,10 @@ nav #nav-logo img {
 #new .card {
   margin: 2rem;
   font-size: 1.5rem;
-  margin: 10rem auto;
-  gap: 10rem;
+  margin: auto;
 }
 #new .card .card-img-top {
   width: 100%;
-  height: 15rem;
 }
 #new .card button {
   width: 10rem;
