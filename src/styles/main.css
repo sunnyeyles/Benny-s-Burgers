@@ -11147,6 +11147,13 @@ header {
 header h1 {
   max-width: 7ch;
 }
+header #header-btn {
+  width: 15rem;
+  height: 5rem;
+  margin: 5rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
 
 nav {
   position: sticky !important;
@@ -11184,18 +11191,22 @@ nav #nav-logo img {
   font-size: 1.5rem;
 }
 
-#new {
-  height: 100vh;
-}
 #new h2 {
   text-align: center;
   padding: 2rem;
   font-size: 4rem;
 }
 #new .card {
-  margin: 5rem auto;
-  height: 50vh;
+  margin: 2rem;
   font-size: 1.5rem;
+  margin: 20rem auto;
+}
+#new .card img {
+  aspect-ratio: 1/1;
+}
+#new .card button {
+  width: 10rem;
+  height: 10rem;
 }
 
 #footer p {

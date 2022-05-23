@@ -6,10 +6,17 @@
     @include m.header-align;
     font-size: 4rem;
   }
-  height: 100vh;
+
   .card {
-    margin: 5rem auto;
-    height: 50vh;
+    margin: 2rem;
     font-size: 1.5rem;
+    margin: 20rem auto;
+    img {
+      aspect-ratio: 1/1;
+    }
+    button {
+      width: 10rem;
+      height: 10rem;
+    }
   }
 }
