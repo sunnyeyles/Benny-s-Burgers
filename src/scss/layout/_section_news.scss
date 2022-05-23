@@ -1,0 +1,15 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+#new {
+  h2 {
+    @include m.header-align;
+    font-size: 4rem;
+  }
+  height: 100vh;
+  .card {
+    margin: 5rem auto;
+    height: 50vh;
+    font-size: 1.5rem;
+  }
+}

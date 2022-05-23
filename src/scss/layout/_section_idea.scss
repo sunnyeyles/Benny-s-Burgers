@@ -1,0 +1,27 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+#idea {
+  height: 180vh;
+  h2 {
+    @include m.header-align;
+    font-size: 4rem;
+  }
+}
+.idea-card {
+  padding: 5rem;
+
+  img {
+    width: 10rem;
+    display: block;
+    margin: 3rem auto;
+    border: solid black;
+    border-radius: 50%;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}

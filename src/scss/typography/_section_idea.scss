@@ -1,0 +1,4 @@
+@use "../utils/variables" as v;
+p {
+  font-family: v.$font-secondary;
+}

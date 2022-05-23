@@ -9,11 +9,11 @@ $border-radius-pill: 0;
 
 $card-border-color: $primary;
 
-@import '../../../node_modules/bootstrap/scss/functions';
-@import '../../../node_modules/bootstrap/scss/variables';
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
 
 // FONT FAMILY
-$font-family-base: 'Love Ya Like A Sister', cursive;
+$font-family-base: "Love Ya Like A Sister", cursive;
 
 // HEADER FONT SIZE
 $h1-font-size: $font-size-base * 10;
@@ -24,4 +24,4 @@ $h3-font-size: $font-size-base * 3.5;
 $lead-font-size: $font-size-base * 1.75;
 
 // This is where you can import other stylesheets or write your scss code
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
