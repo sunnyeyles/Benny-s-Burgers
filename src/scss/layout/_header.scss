@@ -1,0 +1,13 @@
+@use '../utils/variables' as v;
+
+header {
+  height: 92.5vh;
+  background-image: url('../../images/lidye-1Shk_PkNkNw-unsplash.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+  padding-inline: 2rem;
+  padding-top: 25rem;
+  h1 {
+    max-width: 7ch;
+  }
+}

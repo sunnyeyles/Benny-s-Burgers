@@ -1,0 +1,21 @@
+@use '../utils/variables' as v;
+nav {
+  #nav-logo {
+    a {
+      font-family: v.$font-secondary;
+      font-size: 3rem;
+      line-height: 4rem;
+      font-weight: 900;
+    }
+  }
+  #navbarNav {
+    a {
+      font-family: v.$font-secondary;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    ul {
+      gap: 3rem;
+    }
+  }
+}
