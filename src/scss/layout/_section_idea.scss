@@ -2,12 +2,12 @@
 @use "../utils/mixins" as m;
 
 .idea-card {
-  padding: 5rem;
+  // padding: 5rem;
 
   img {
     width: 10rem;
     display: block;
-    margin: 3rem auto;
+    margin: auto;
     border: solid black;
     border-radius: 50%;
     padding: 1.5rem;
@@ -17,4 +17,7 @@
     text-align: left;
     font-size: 1.5rem;
   }
+}
+.card {
+  position: inherit;
 }

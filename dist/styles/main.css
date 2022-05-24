@@ -7,9 +7,9 @@
 *,
 *::before,
 *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /*!
@@ -11143,7 +11143,6 @@ header {
   background-size: cover;
   padding-inline: 2rem;
   padding-top: 25rem;
-  width: 100%;
 }
 header h1 {
   max-width: 7ch;
@@ -11161,10 +11160,13 @@ nav #nav-logo img {
   padding-right: 1em;
 }
 
+.idea-card {
+  padding: 5rem;
+}
 .idea-card img {
   width: 10rem;
   display: block;
-  margin: auto;
+  margin: 3rem auto;
   border: solid black;
   border-radius: 50%;
   padding: 1.5rem;
@@ -11172,10 +11174,6 @@ nav #nav-logo img {
 .idea-card p {
   text-align: left;
   font-size: 1.5rem;
-}
-
-.card {
-  position: inherit;
 }
 
 #new h2 {
