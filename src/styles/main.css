@@ -11136,16 +11136,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
-  height: 92.5vh;
+.banner {
   background-image: url("../../images/lidye-1Shk_PkNkNw-unsplash.jpg");
+  height: 92.5vh;
   background-position: 50% 100%;
   background-size: cover;
   padding-inline: 2rem;
   padding-top: 25rem;
   width: 100%;
 }
-header h1 {
+.banner h1 {
   max-width: 7ch;
 }
 
